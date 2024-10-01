@@ -1,0 +1,14 @@
+<launch>>
+    <arg name="arg_updating_frequency" default="5" />
+
+    <node pkg="map_manager" type="node" name="map_manager" output="screen">
+        <param name="updating_frequency" value="$(arg arg_updating_frequency)" />
+    </node>
+
+     <include file="$(find map_providers)/launch/map_providers.launch">
+     </include>
+
+     <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" >
+           <arg name="port" value="9090"/>
+      </include>
+</launch>

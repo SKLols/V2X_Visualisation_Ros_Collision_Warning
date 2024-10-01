@@ -1,0 +1,4 @@
+<launch>>
+	<node pkg="ros_collision_detection" type="fused_debug" name="FusedObjects_CPM" />
+	<node pkg="map_manager" type="Collision_Warning" name="Collision_vis_tracker" />
+</launch>

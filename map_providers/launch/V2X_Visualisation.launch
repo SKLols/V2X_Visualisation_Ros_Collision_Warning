@@ -1,0 +1,4 @@
+<launch>>
+	<node pkg="map_providers" type="fused_debug" node name="FusedObjects_CPM" name="FusedObjects_CPM" output="screen" />
+	<node pkg="map_providers" type="Collision_Warning" node name="Collision_vis_tracker" name="Collision_vis_tracker" output="screen" />
+</launch>

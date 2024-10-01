@@ -1,0 +1,5 @@
+<launch>
+  <node name="collision_detection" pkg="ros_collision_detection" type="collision_detection" output="screen"/>
+  <node name="FusedObjects_CPM" pkg= >
+  <node name="Collision_vis_tracker" pkg="ros_collision_detection" type= >
+</launch>

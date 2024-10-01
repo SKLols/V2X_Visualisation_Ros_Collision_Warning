@@ -1,0 +1,1 @@
+MapObject[] list_objects

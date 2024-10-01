@@ -1,0 +1,7 @@
+<launch>>
+    <arg name="cam_provider_topic" default="cam_received" />
+
+    <node pkg="map_providers" type="node" name="providers_launcher" output="screen">
+    </node>
+
+</launch>

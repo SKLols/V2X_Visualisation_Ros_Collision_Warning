@@ -1,0 +1,9 @@
+Header header
+etsi_its_msgs/ReferencePosition position
+etsi_its_msgs/Heading heading
+string type
+string source
+uint32 source_id
+string id
+float64 expiration_time
+uint32 radius_denm
